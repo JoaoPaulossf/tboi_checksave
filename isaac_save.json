@@ -103,7 +103,7 @@
             "all marks": false
         },
         "cain": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "guppy's eye": {
                     "desbloqueado": false,

@@ -34,12 +34,20 @@ def listarItens(nome,dados):
         for NomeItem, valor in dados["personagens"][nome]["itens"].items():
             desbloqueado = valor["desbloqueado"]
             requisito = valor["requisito"]
-            print(f"{NomeItem} : {desbloqueado} {requisito}")
+            if desbloqueado == True:
+                status = "Desbloqueado"
+            else:
+                status = "Bloqueado"
+            print(f"Item: {NomeItem} Status: {status} Marca necessária: {requisito}")
 
 def listarPersonagens(dados):
     for nome in dados["personagens"]:
         valor = dados["personagens"][nome]["desbloqueado"]
-        print(f"{nome} : {valor}")
+        if valor == True:
+            output = "Desbloqueado"
+        else:
+            output = "Bloqueado" 
+        print(f"{nome} : {output}")
 
 def verificarAllMarks(nome, dados):
     for valor in dados["personagens"][nome]["marcas"].values():
@@ -97,9 +105,12 @@ def main():
                 nome = input("Digite o nome do persoagem que quer atualizar uma marca:")
                 marca = input("Digite o nome da marca que quer atualizar:")
                 atualizarMarca(nome,dados,marca)
+            case 0:
+                print("fechando o programa...")
             case _:
                 print("opcao invalida!tente novamente")
-        
-    salvarJson(dados)
+        salvarJson(dados)
+        dados = carregarJson()    
+    
 
 main()
