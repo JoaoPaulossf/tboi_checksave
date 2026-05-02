@@ -1,0 +1,1430 @@
+{
+    "personagens": {
+        "isaac": {
+            "desbloqueado": true,
+            "itens": {
+                "mom's knife": {
+                    "desbloqueado": true,
+                    "requisito": "satan"
+                },
+                "d20": {
+                    "desbloqueado": false,
+                    "requisito": "bluebaby"
+                },
+                "options?": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                },
+                "d infinity": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "missing poster": {
+                    "desbloqueado": false,
+                    "requisito": "the lamb"
+                },
+                "farting baby": {
+                    "desbloqueado": false,
+                    "requisito": "hush"
+                },
+                "isaac's head": {
+                    "desbloqueado": false,
+                    "requisito": "boss rush"
+                }
+            },
+            "marcas": {
+                "boss rush": true,
+                "mom's heart": true,
+                "satan": true,
+                "isaac": true,
+                "the lamb": true,
+                "???": true,
+                "ultra greed": true,
+                "ultra greedier": true,
+                "hush": true,
+                "delirium": true,
+                "mother": true,
+                "the beast": true,
+                "mega satan": true
+            },
+            "all marks": true
+        },
+        "magdalene": {
+            "desbloqueado": false,
+            "itens": {
+                "candy heart": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                },
+                "eucharist": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "A cross": {
+                    "desbloqueado": false,
+                    "requisito": "isaac"
+                },
+                "celtic cross": {
+                    "desbloqueado": false,
+                    "requisito": "bluebaby"
+                },
+                "purity": {
+                    "desbloqueado": false,
+                    "requisito": "hush"
+                },
+                "censer": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greed"
+                },
+                "maggy's bow": {
+                    "desbloqueado": false,
+                    "requisito": "boss rush"
+                },
+                "maggy's faith": {
+                    "desbloqueado": false,
+                    "requisito": "the lamb"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "cain": {
+            "desbloqueado": false,
+            "itens": {
+                "guppy's eye": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "cain's other eye": {
+                    "desbloqueado": false,
+                    "requisito": "bluebaby"
+                },
+                "sack of sacks": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greedier"
+                },
+                "evil eye": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greed"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "judas": {
+            "desbloqueado": false,
+            "itens": {
+                "curved horn": {
+                    "desbloqueado": false,
+                    "requisito": "the lamb"
+                },
+                "the left hand": {
+                    "desbloqueado": false,
+                    "requisito": "bluebaby"
+                },
+                "eye of belial": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greedier"
+                },
+                "my shadow": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greed"
+                },
+                "judas' tongue": {
+                    "desbloqueado": false,
+                    "requisito": "satan"
+                },
+                "guillotine": {
+                    "desbloqueado": false,
+                    "requisito": "isaac"
+                },
+                "judas' shadow": {
+                    "desbloqueado": false,
+                    "requisito": "boss rush"
+                },
+                "akeldama": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "???": {
+            "desbloqueado": false,
+            "itens": {
+                "D6": {
+                    "desbloqueado": false,
+                    "requisito": "isaac"
+                },
+                "eternal d6": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "fate": {
+                    "desbloqueado": false,
+                    "requisito": "bluebaby"
+                },
+                "meconium": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greedier"
+                },
+                "???'s only friend": {
+                    "desbloqueado": false,
+                    "requisito": "boss rush"
+                },
+                "fate's reward": {
+                    "desbloqueado": false,
+                    "requisito": "hush"
+                },
+                "???'s soul": {
+                    "desbloqueado": false,
+                    "requisito": "the lamb"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "eve": {
+            "desbloqueado": false,
+            "itens": {
+                "eve's mascara": {
+                    "desbloqueado": false,
+                    "requisito": "boss rush"
+                },
+                "athame": {
+                    "desbloqueado": false,
+                    "requisito": "hush"
+                },
+                "sacrificial dagger": {
+                    "desbloqueado": false,
+                    "requisito": "bluebaby"
+                },
+                "eve's bird foot": {
+                    "desbloqueado": false,
+                    "requisito": "isaac"
+                },
+                "bird cage": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "cracked orb": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "samson": {
+            "desbloqueado": false,
+            "itens": {
+                "bloody lust": {
+                    "desbloqueado": false,
+                    "requisito": "isaac"
+                },
+                "lusty blood": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greed"
+                },
+                "bloody gust": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "samson's chain": {
+                    "desbloqueado": false,
+                    "requisito": "boss rush"
+                },
+                "blood penny": {
+                    "desbloqueado": false,
+                    "requisito": "bluebaby"
+                },
+                "samson's lock": {
+                    "desbloqueado": false,
+                    "requisito": "the lamb"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "azazel": {
+            "desbloqueado": false,
+            "itens": {
+                "lilith": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greed"
+                },
+                "abbadon": {
+                    "desbloqueado": false,
+                    "requisito": "bluebaby"
+                },
+                "satanic bible": {
+                    "desbloqueado": false,
+                    "requisito": "isaac"
+                },
+                "daemon's tail": {
+                    "desbloqueado": false,
+                    "requisito": "satan"
+                },
+                "the nail": {
+                    "desbloqueado": false,
+                    "requisito": "boss rush"
+                },
+                "maw of the void": {
+                    "desbloqueado": false,
+                    "requisito": "hush"
+                },
+                "demon baby": {
+                    "desbloqueado": false,
+                    "requisito": "the lamb"
+                },
+                "dark prince's crown": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "lazarus": {
+            "desbloqueado": false,
+            "itens": {
+                "compound fracture": {
+                    "desbloqueado": false,
+                    "requisito": " delirium"
+                },
+                "astral projection": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                },
+                "tinytoma": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "pandora's box": {
+                    "desbloqueado": false,
+                    "requisito": "the lamb"
+                },
+                "empty vessel": {
+                    "desbloqueado": false,
+                    "requisito": "hush"
+                },
+                "store credit": {
+                    "desbloqueado": false,
+                    "requisito": "bluebaby"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "eden": {
+            "desbloqueado": false,
+            "itens": {
+                "Eden's blessing": {
+                    "desbloqueado": false,
+                    "requisito": "hush"
+                },
+                "Eden's soul": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "blank card": {
+                    "desbloqueado": false,
+                    "requisito": "isaac"
+                },
+                "book of secrets": {
+                    "desbloqueado": false,
+                    "requisito": "satan"
+                },
+                "mystery sack": {
+                    "desbloqueado": false,
+                    "requisito": "the lamb"
+                },
+                "everything jar": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "the lost": {
+            "desbloqueado": false,
+            "itens": {
+                "the mind": {
+                    "desbloqueado": false,
+                    "requisito": "satan"
+                },
+                "the soul": {
+                    "desbloqueado": false,
+                    "requisito": "the lamb"
+                },
+                "the body": {
+                    "desbloqueado": false,
+                    "requisito": "bluebaby"
+                },
+                "hungry soul": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                },
+                "sworn protector": {
+                    "desbloqueado": false,
+                    "requisito": "hush"
+                },
+                "holy card": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "lost soul": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "lilith": {
+            "desbloqueado": false,
+            "itens": {
+                "c section": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                },
+                "incubus": {
+                    "desbloqueado": false,
+                    "requisito": "hush"
+                },
+                "succubus": {
+                    "desbloqueado": false,
+                    "requisito": "the lamb"
+                },
+                "cambion conception": {
+                    "desbloqueado": false,
+                    "requisito": "bluebaby"
+                },
+                "euthanasia": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "duality": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greedier"
+                },
+                "blood puppy": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "rune bag": {
+                    "desbloqueado": false,
+                    "requisito": "isaac"
+                },
+                "serpent's kiss": {
+                    "desbloqueado": false,
+                    "requisito": "satan"
+                },
+                "box of friends": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greed"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "keeper": {
+            "desbloqueado": false,
+            "itens": {
+                "Keeper holds a wooden nickel": {
+                    "desbloqueado": false,
+                    "requisito": "isaac"
+                },
+                "Keeper's sack": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "deep pockets": {
+                    "desbloqueado": false,
+                    "requisito": "bluebaby"
+                },
+                "rib of greed": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greed"
+                },
+                "crooked penny": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "apollyon": {
+            "desbloqueado": false,
+            "itens": {
+                "void": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "black rune": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greedier"
+                },
+                "smelter": {
+                    "desbloqueado": false,
+                    "requisito": "mom heart"
+                },
+                "lil portal": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "worm friend": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                },
+                "locust of conquest": {
+                    "desbloqueado": false,
+                    "requisito": "boss rush"
+                },
+                "locust of pestilence": {
+                    "desbloqueado": false,
+                    "requisito": "satan"
+                },
+                "locust of death": {
+                    "desbloqueado": false,
+                    "requisito": "the lamb"
+                },
+                "locust of famine": {
+                    "desbloqueado": false,
+                    "requisito": "bluebaby"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "the forgotten": {
+            "desbloqueado": false,
+            "itens": {
+                "book of the dead": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "divorce papers": {
+                    "desbloqueado": false,
+                    "requisito": "boss rush"
+                },
+                "brittle bones": {
+                    "desbloqueado": false,
+                    "requisito": "the lamb"
+                },
+                "hallowed ground": {
+                    "desbloqueado": false,
+                    "requisito": "hush"
+                },
+                "bone spurs": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "spirit shackles": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                },
+                "slipped rib": {
+                    "desbloqueado": false,
+                    "requisito": "isaac"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "bethany": {
+            "desbloqueado": false,
+            "itens": {
+                "revelation": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "book of virtues": {
+                    "desbloqueado": false,
+                    "requisito": "isaac"
+                },
+                "blessed penny": {
+                    "desbloqueado": false,
+                    "requisito": "bluebaby"
+                },
+                "soul locket": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greed"
+                },
+                "star of bethlehem": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "urn of souls": {
+                    "desbloqueado": false,
+                    "requisito": "satan"
+                },
+                "beth's faith": {
+                    "desbloqueado": false,
+                    "requisito": "boss rush"
+                },
+                "divine intervention": {
+                    "desbloqueado": false,
+                    "requisito": "hush"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "jacob and esau": {
+            "desbloqueado": false,
+            "itens": {
+                "rock bottom": {
+                    "desbloqueado": false,
+                    "requisito": "boss rush"
+                },
+                "birthright": {
+                    "desbloqueado": false,
+                    "requisito": "bluebaby"
+                },
+                "the stairway": {
+                    "desbloqueado": false,
+                    "requisito": "isaac"
+                },
+                "genesis": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greedier"
+                },
+                "magic skin": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "vanishing twin": {
+                    "desbloqueado": false,
+                    "requisito": "hush"
+                },
+                "inner child": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greed"
+                },
+                "damocles": {
+                    "desbloqueado": false,
+                    "requisito": "the lamb"
+                },
+                "friend finder": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted isaac": {
+            "desbloqueado": false,
+            "itens": {
+                "glitched crown": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                },
+                "spindown dice": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "dice bag": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "soul of isaac": {
+                    "desbloqueado": false,
+                    "requisito": "hush & boss rush"
+                },
+                "the stars?": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greedier"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted magdalene": {
+            "desbloqueado": false,
+            "itens": {
+                "belly jelly": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                },
+                "lovers?": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greedier"
+                },
+                "hypercoagulation": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "queen of hearts": {
+                    "desbloqueado": false,
+                    "requisito": "mega satan"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted cain": {
+            "desbloqueado": false,
+            "itens": {
+                "golden pills": {
+                    "desbloqueado": false,
+                    "requisito": "mega satan"
+                },
+                "soul of cain": {
+                    "desbloqueado": false,
+                    "requisito": "hush & boss rush"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted judas": {
+            "desbloqueado": false,
+            "itens": {
+                "number magnet": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "black sacks": {
+                    "desbloqueado": false,
+                    "requisito": "mega satan"
+                },
+                "your soul": {
+                    "desbloqueado": false,
+                    "requisito": "isaac/bluebaby/satan & the lamb"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted ???": {
+            "desbloqueado": false,
+            "itens": {
+                "emperor?": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greedier"
+                },
+                "the swarm": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted eve": {
+            "desbloqueado": false,
+            "itens": {
+                "sumptorium": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "lil clot": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "strange key": {
+                    "desbloqueado": false,
+                    "requisito": "isaac/bluebaby/satan & the lamb"
+                },
+                "horse pills": {
+                    "desbloqueado": false,
+                    "requisito": "mega satan"
+                },
+                "heartbreak": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted samson": {
+            "desbloqueado": false,
+            "itens": {
+                "crane game": {
+                    "desbloqueado": false,
+                    "requisito": "mega satan"
+                },
+                "berserk!": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "temporary tattoo": {
+                    "desbloqueado": false,
+                    "requisito": "isaac/bluebaby/satan & the lamb"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted azazel": {
+            "desbloqueado": false,
+            "itens": {
+                "Azazel's rage": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                },
+                "Azazel's stump": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted lazarus": {
+            "desbloqueado": false,
+            "itens": {
+                "judgement?": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greedier"
+                },
+                "flip": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "wooden chests": {
+                    "desbloqueado": false,
+                    "requisito": "mega satan"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted eden": {
+            "desbloqueado": false,
+            "itens": {
+                "the world?": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greedier"
+                },
+                "soul of eden": {
+                    "desbloqueado": false,
+                    "requisito": "hush & boss rush"
+                },
+                "wild card": {
+                    "desbloqueado": false,
+                    "requisito": "mega satan"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted lost": {
+            "desbloqueado": false,
+            "itens": {
+                "sacred orb": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                },
+                "crystal key": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "soul of the lost": {
+                    "desbloqueado": false,
+                    "requisito": "hush & boss rush"
+                },
+                "ghost bombs": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "kid's drawing": {
+                    "desbloqueado": false,
+                    "requisito": "isaac/bluebaby/satan & the lamb"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted lilith": {
+            "desbloqueado": false,
+            "itens": {
+                "twisted pair": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                },
+                "gello": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "soul of lilith": {
+                    "desbloqueado": false,
+                    "requisito": "hush & boss rush"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted keeper": {
+            "desbloqueado": false,
+            "itens": {
+                "golden pennies": {
+                    "desbloqueado": false,
+                    "requisito": "mega satan"
+                },
+                "soul of the keeper": {
+                    "desbloqueado": false,
+                    "requisito": "hush & boss rush"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted apollyon": {
+            "desbloqueado": false,
+            "itens": {
+                "echo chamber": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                },
+                "abyss": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "Apollyon's best friend": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "the tower?": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greedier"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted forgotten": {
+            "desbloqueado": false,
+            "itens": {
+                "Isaac's tomb": {
+                    "desbloqueado": false,
+                    "requisito": "the beast"
+                },
+                "hollow heart": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "polished bone": {
+                    "desbloqueado": false,
+                    "requisito": "isaac/bluebaby/satan & the lamb"
+                },
+                "soul of the forgotten": {
+                    "desbloqueado": false,
+                    "requisito": "hush & boss rush"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted bethany": {
+            "desbloqueado": false,
+            "itens": {
+                "Lemegeton": {
+                    "desbloqueado": false,
+                    "requisito": "delirium"
+                },
+                "confessionals": {
+                    "desbloqueado": false,
+                    "requisito": "mega satan"
+                },
+                "soul of bethany": {
+                    "desbloqueado": false,
+                    "requisito": "hush & boss rush"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        },
+        "tainted jacob": {
+            "desbloqueado": false,
+            "itens": {
+                "found soul": {
+                    "desbloqueado": false,
+                    "requisito": "mother"
+                },
+                "the moon?": {
+                    "desbloqueado": false,
+                    "requisito": "ultra greedier"
+                },
+                "soul of jacob and esau": {
+                    "desbloqueado": false,
+                    "requisito": "hush & boss rush"
+                },
+                "golden trinkets": {
+                    "desbloqueado": false,
+                    "requisito": "mega satan"
+                }
+            },
+            "marcas": {
+                "boss rush": false,
+                "mom's heart": false,
+                "satan": false,
+                "isaac": false,
+                "the lamb": false,
+                "???": false,
+                "ultra greed": false,
+                "ultra greedier": false,
+                "hush": false,
+                "delirium": false,
+                "mother": false,
+                "the beast": false,
+                "mega satan": false
+            },
+            "all marks": false
+        }
+    }
+}
