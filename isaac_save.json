@@ -50,7 +50,7 @@
             "all marks": true
         },
         "magdalene": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "candy heart": {
                     "desbloqueado": false,
@@ -87,7 +87,7 @@
             },
             "marcas": {
                 "boss rush": false,
-                "mom's heart": false,
+                "mom's heart": true,
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,

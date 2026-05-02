@@ -76,14 +76,30 @@ def atualizarMarca(nome, dados, marca):
 def main():
     dados = carregarJson()
     
-    #listarPersonagens(dados)
+    opcao = -1
 
-    #nome = input("digita um nome de isaac ai mano:").lower()
-    #desbloquearPersonagem(nome,dados)
-    marca = input(f"digita uma marca que voce fez:").lower()
-
-    atualizarMarca("isaac",dados,marca)
-
+    while opcao != 0:
+        print("1 - Listar personagens\n 2 - Listar itens de um personagem\n 3 - Desbloquear personagem\n 4 - Bloquear personagem\n 5 - Atualizar marca de um personagem")
+        opcao = int(input("Coloque o numero correspondente a sua escolha:"))
+        match opcao:
+            case 1:
+                listarPersonagens(dados)
+            case 2:
+                nome = input("Digite o nome do personagem que quer ver os itens:")
+                listarItens(nome,dados)
+            case 3:
+                nome = input("Digite o nome do personagem que quer desbloquear:")
+                desbloquearPersonagem(nome,dados)
+            case 4:
+                nome = input("Digite o nome do personagem que quer bloquear:")
+                bloquearPersonagem(nome,dados)
+            case 5:
+                nome = input("Digite o nome do persoagem que quer atualizar uma marca:")
+                marca = input("Digite o nome da marca que quer atualizar:")
+                atualizarMarca(nome,dados,marca)
+            case _:
+                print("opcao invalida!tente novamente")
+        
     salvarJson(dados)
 
 main()
