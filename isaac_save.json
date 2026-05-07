@@ -140,7 +140,7 @@
             "all marks": false
         },
         "judas": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "curved horn": {
                     "desbloqueado": false,
@@ -193,7 +193,7 @@
             "all marks": false
         },
         "???": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "D6": {
                     "desbloqueado": false,
@@ -242,7 +242,7 @@
             "all marks": false
         },
         "eve": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "eve's mascara": {
                     "desbloqueado": false,
@@ -287,7 +287,7 @@
             "all marks": false
         },
         "samson": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "bloody lust": {
                     "desbloqueado": false,
@@ -332,7 +332,7 @@
             "all marks": false
         },
         "azazel": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "lilith": {
                     "desbloqueado": false,
@@ -385,7 +385,7 @@
             "all marks": false
         },
         "lazarus": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "compound fracture": {
                     "desbloqueado": false,
@@ -430,7 +430,7 @@
             "all marks": false
         },
         "eden": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "Eden's blessing": {
                     "desbloqueado": false,
@@ -475,7 +475,7 @@
             "all marks": false
         },
         "the lost": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "the mind": {
                     "desbloqueado": false,
@@ -524,7 +524,7 @@
             "all marks": false
         },
         "lilith": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "c section": {
                     "desbloqueado": false,
@@ -585,7 +585,7 @@
             "all marks": false
         },
         "keeper": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "Keeper holds a wooden nickel": {
                     "desbloqueado": false,
@@ -626,7 +626,7 @@
             "all marks": false
         },
         "apollyon": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "void": {
                     "desbloqueado": false,
@@ -683,7 +683,7 @@
             "all marks": false
         },
         "the forgotten": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "book of the dead": {
                     "desbloqueado": false,
@@ -732,7 +732,7 @@
             "all marks": false
         },
         "bethany": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "revelation": {
                     "desbloqueado": false,
@@ -785,7 +785,7 @@
             "all marks": false
         },
         "jacob and esau": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "rock bottom": {
                     "desbloqueado": false,
@@ -883,7 +883,7 @@
             "all marks": false
         },
         "tainted magdalene": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "belly jelly": {
                     "desbloqueado": false,
@@ -920,7 +920,7 @@
             "all marks": false
         },
         "tainted cain": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "golden pills": {
                     "desbloqueado": false,
@@ -949,7 +949,7 @@
             "all marks": false
         },
         "tainted judas": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "number magnet": {
                     "desbloqueado": false,
@@ -1085,7 +1085,7 @@
             "all marks": false
         },
         "tainted azazel": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "Azazel's rage": {
                     "desbloqueado": false,
@@ -1221,7 +1221,7 @@
             "all marks": false
         },
         "tainted lilith": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "twisted pair": {
                     "desbloqueado": false,

@@ -35,18 +35,18 @@ def listarItens(nome,dados):
             desbloqueado = valor["desbloqueado"]
             requisito = valor["requisito"]
             if desbloqueado == True:
-                status = "Desbloqueado"
+                status = "✅ Desbloqueado"
             else:
-                status = "Bloqueado"
+                status = "❌ Bloqueado"
             print(f"Item: {NomeItem} Status: {status} Marca necessária: {requisito}")
 
 def listarPersonagens(dados):
     for nome in dados["personagens"]:
         valor = dados["personagens"][nome]["desbloqueado"]
         if valor == True:
-            output = "Desbloqueado"
+            output = "✅ Desbloqueado"
         else:
-            output = "Bloqueado" 
+            output = "❌ Bloqueado" 
         print(f"{nome} : {output}")
 
 def verificarAllMarks(nome, dados):
