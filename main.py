@@ -79,6 +79,17 @@ def atualizarMarca(nome, dados, marca):
         verificarAllMarks(nome,dados)
         return
 
+
+def exibirProgresso(nome, dados):
+    if not personagemExiste(nome, dados):
+        print("Nome invalido!")
+        return
+    for marca, estado in dados["personagens"][nome]["marcas"].items():
+        if estado == True:
+            saida = "✅ Concluido!"
+        else:
+            saida = "❌ Não concluido!"
+        print(f"{marca} : {saida}")
     
 
 def main():
@@ -103,6 +114,7 @@ def main():
                 bloquearPersonagem(nome,dados)
             case 5:
                 nome = input("Digite o nome do persoagem que quer atualizar uma marca:")
+                exibirProgresso(nome, dados)
                 marca = input("Digite o nome da marca que quer atualizar:")
                 atualizarMarca(nome,dados,marca)
             case 0:

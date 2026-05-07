@@ -41,13 +41,13 @@
                 "???": true,
                 "ultra greed": true,
                 "ultra greedier": true,
-                "hush": true,
+                "hush": false,
                 "delirium": true,
                 "mother": true,
                 "the beast": true,
                 "mega satan": true
             },
-            "all marks": true
+            "all marks": false
         },
         "magdalene": {
             "desbloqueado": true,
@@ -842,7 +842,7 @@
             "all marks": false
         },
         "tainted isaac": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "glitched crown": {
                     "desbloqueado": false,
@@ -1114,7 +1114,7 @@
             "all marks": false
         },
         "tainted lazarus": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "judgement?": {
                     "desbloqueado": false,
