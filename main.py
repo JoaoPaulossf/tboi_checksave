@@ -1,4 +1,5 @@
 import json
+import random
 
 def carregarJson():
     with open("isaac_save.json", "r", encoding="utf-8") as arquivo:
@@ -90,7 +91,19 @@ def exibirProgresso(nome, dados):
         else:
             saida = "❌ Não concluido!"
         print(f"{marca} : {saida}")
-    
+
+def gerarRun(dados):
+    personagensDesbloqueados = [
+        chave for chave, valor in dados["personagens"].items()
+        if valor["desbloqueado"] 
+    ]
+    personagemSorteado = random.choice(personagensDesbloqueados)
+    objetivosPrimarios = ["The lamb", "Blue baby(???)", "Mega Satan", "Mother", "The beast" , "Greed"]
+    objetivosSecundarios = ["Delirium", "Boss Rush", "Hush"]
+    primarioSorteado = random.choice(objetivosPrimarios)
+    secundarioSorteado = random.choice(objetivosSecundarios)
+
+    print(f"\nPersonagem:{personagemSorteado.capitalize()}\nObjetivo: {primarioSorteado}\nTentar chegar no {secundarioSorteado}\n")
 
 def main():
     dados = carregarJson()
@@ -98,7 +111,8 @@ def main():
     opcao = -1
 
     while opcao != 0:
-        print("1 - Listar personagens\n 2 - Listar itens de um personagem\n 3 - Desbloquear personagem\n 4 - Bloquear personagem\n 5 - Atualizar marca de um personagem")
+        print("1 - Listar personagens\n2 - Listar itens de um personagem\n3 - Desbloquear personagem\n4 - Bloquear personagem\n5 - Atualizar marca de um personagem\n6 - Ver marcas de um personagem")
+        print("7 - Randomizar uma run para jogar")
         opcao = int(input("Coloque o numero correspondente a sua escolha:"))
         match opcao:
             case 1:
@@ -117,6 +131,11 @@ def main():
                 exibirProgresso(nome, dados)
                 marca = input("Digite o nome da marca que quer atualizar:")
                 atualizarMarca(nome,dados,marca)
+            case 6:
+                nome = input("Digite o nome do personagem que quer ver as marcas:")
+                exibirProgresso(nome,dados)
+            case 7:
+                gerarRun(dados)
             case 0:
                 print("fechando o programa...")
             case _:

@@ -61,7 +61,7 @@
                     "requisito": "delirium"
                 },
                 "A cross": {
-                    "desbloqueado": false,
+                    "desbloqueado": true,
                     "requisito": "isaac"
                 },
                 "celtic cross": {
@@ -89,7 +89,7 @@
                 "boss rush": false,
                 "mom's heart": true,
                 "satan": false,
-                "isaac": false,
+                "isaac": true,
                 "the lamb": false,
                 "???": false,
                 "ultra greed": false,
@@ -1052,7 +1052,7 @@
             "all marks": false
         },
         "tainted samson": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "crane game": {
                     "desbloqueado": false,
