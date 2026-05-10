@@ -143,5 +143,4 @@ def main():
         salvarJson(dados)
         dados = carregarJson()    
     
-
 main()
