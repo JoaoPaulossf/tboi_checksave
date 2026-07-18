@@ -1,5 +1,6 @@
 import json
 import random
+import sqlite3
 
 def carregarJson():
     with open("isaac_save.json", "r", encoding="utf-8") as arquivo:
@@ -10,10 +11,21 @@ def salvarJson(dados):
     with open("isaac_save.json", "w", encoding="utf-8") as arquivo:
         json.dump(dados, arquivo, indent=4, ensure_ascii=False)
 
-def personagemExiste(nome,dados):
-    if nome in dados["personagens"]:
-        return True
-    return False
+def personagemExiste(personagem):
+    
+    conn = sqlite3.connect("database/isaac.db")
+
+    cursor = conn.cursor()
+
+    cursor.execute(
+    "SELECT * FROM personagem WHERE nome = ?",(personagem,)
+    )
+    
+    personagem = cursor.fetchone()
+
+    print(personagem)
+
+    conn.close()
 
 def personagemEhDesbloqueado(nome, dados):
     return dados["personagens"][nome]["desbloqueado"]
@@ -42,13 +54,15 @@ def listarItens(nome,dados):
             print(f"Item: {NomeItem} Status: {status} Marca necessária: {requisito}")
 
 def listarPersonagens(dados):
+    saida = []
     for nome in dados["personagens"]:
         valor = dados["personagens"][nome]["desbloqueado"]
         if valor == True:
-            output = "✅ Desbloqueado"
+            output = 1
         else:
-            output = "❌ Bloqueado" 
-        print(f"{nome} : {output}")
+            output = 0 
+        saida.append([nome, output])
+    return saida
 
 def verificarAllMarks(nome, dados):
     for valor in dados["personagens"][nome]["marcas"].values():

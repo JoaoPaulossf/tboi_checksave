@@ -1011,7 +1011,7 @@
             "all marks": false
         },
         "tainted eve": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "sumptorium": {
                     "desbloqueado": false,
@@ -1320,7 +1320,7 @@
             "all marks": false
         },
         "tainted forgotten": {
-            "desbloqueado": false,
+            "desbloqueado": true,
             "itens": {
                 "Isaac's tomb": {
                     "desbloqueado": false,
