@@ -6,30 +6,29 @@ cursor = conn.cursor()
 
 cursor.execute("""
 CREATE TABLE personagem(
-    id INTEGER PRIMARY KEY,
-    nome TEXT,
-    desbloqueado INTEGER               
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    desbloqueado INTEGER NOT NULL            
 )
 """)
 
 cursor.execute("""
 CREATE TABLE boss(
-    id INTEGER PRIMARY KEY,
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
     nome TEXT
 )
 """)
 
 cursor.execute("""
 CREATE TABLE item(
-    id INTEGER PRIMARY KEY,
-    nome TEXT,
-    qualidade INTEGER
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT
 )               
 """)
 
 cursor.execute("""
 CREATE TABLE unlock(
-    id INTEGER PRIMARY KEY, 
+    id INTEGER PRIMARY KEY AUTOINCREMENT, 
     personagem_id INTEGER,
     item_id INTEGER,
     boss_id INTEGER
@@ -38,7 +37,7 @@ CREATE TABLE unlock(
 
 cursor.execute("""
 CREATE TABLE progresso(
-    id INTEGER PRIMARY KEY,
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
     personagem_id INTEGER,
     boss_id INTEGER,
     concluido INTEGER

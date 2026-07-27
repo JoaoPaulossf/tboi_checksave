@@ -44,14 +44,22 @@ def bloquearPersonagem(nome,dados):
 
 def listarItens(nome,dados):
     if personagemExiste(nome,dados):
+        itens = []
+        situacao = []
+        requisitoL = []
         for NomeItem, valor in dados["personagens"][nome]["itens"].items():
             desbloqueado = valor["desbloqueado"]
             requisito = valor["requisito"]
             if desbloqueado == True:
-                status = "✅ Desbloqueado"
+                status = 1
             else:
-                status = "❌ Bloqueado"
+                status = 0
             print(f"Item: {NomeItem} Status: {status} Marca necessária: {requisito}")
+            itens.append(NomeItem)
+            situacao.append(status)
+            requisitoL.append(requisito)
+        return itens, situacao, requisitoL
+        
 
 def listarPersonagens(dados):
     saida = []
@@ -99,12 +107,16 @@ def exibirProgresso(nome, dados):
     if not personagemExiste(nome, dados):
         print("Nome invalido!")
         return
+    marcas = []
     for marca, estado in dados["personagens"][nome]["marcas"].items():
         if estado == True:
             saida = "✅ Concluido!"
         else:
             saida = "❌ Não concluido!"
         print(f"{marca} : {saida}")
+        marcas.append(marca)
+
+    return marcas
 
 def gerarRun(dados):
     personagensDesbloqueados = [
