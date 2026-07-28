@@ -1,7 +1,9 @@
 import json
 import random
-import sqlite3
 
+from database.conexao import conectar
+
+#tirar as duas funções abaixo!!!
 def carregarJson():
     with open("isaac_save.json", "r", encoding="utf-8") as arquivo:
         dados = json.load(arquivo)
@@ -11,54 +13,67 @@ def salvarJson(dados):
     with open("isaac_save.json", "w", encoding="utf-8") as arquivo:
         json.dump(dados, arquivo, indent=4, ensure_ascii=False)
 
+#verifica se o personagem existe, caso exista, retorna o id
 def personagemExiste(personagem):
     
-    conn = sqlite3.connect("database/isaac.db")
+    with conectar() as conn:        
+        cursor = conn.cursor()
 
-    cursor = conn.cursor()
-
-    cursor.execute(
-    "SELECT * FROM personagem WHERE nome = ?",(personagem,)
-    )
+        cursor.execute(
+        "SELECT * FROM personagem WHERE nome = ?",(personagem,)
+        )
     
-    personagem = cursor.fetchone()
+        resultado = cursor.fetchone()
 
-    print(personagem)
+        if resultado is None:
+            return False
 
-    conn.close()
+        return resultado[0]
 
-def personagemEhDesbloqueado(nome, dados):
-    return dados["personagens"][nome]["desbloqueado"]
 
-def desbloquearPersonagem(nome,dados):
-    if personagemExiste(nome,dados):
-        dados["personagens"][nome]["desbloqueado"] = True
-    else:
-        print("Nome invalido!!")
+def personagemEhDesbloqueado(id):
+    with conectar() as conn:
+        cursor = conn.cursor()
 
-def bloquearPersonagem(nome,dados):
-    if personagemExiste(nome,dados):
-        dados["personagens"][nome]["desbloqueado"] = False
-    else:
-        print("Nome invalido!!")
+        cursor.execute(
+            "SELECT desbloqueado FROM personagem WHERE id = ?",
+            (id,)
+        )
 
-def listarItens(nome,dados):
-    if personagemExiste(nome,dados):
-        itens = []
-        situacao = []
-        requisitoL = []
-        for NomeItem, valor in dados["personagens"][nome]["itens"].items():
-            desbloqueado = valor["desbloqueado"]
-            requisito = valor["requisito"]
-            if desbloqueado == True:
-                status = 1
-            else:
-                status = 0
-            print(f"Item: {NomeItem} Status: {status} Marca necessária: {requisito}")
-            itens.append(NomeItem)
-            situacao.append(status)
-            requisitoL.append(requisito)
-        return itens, situacao, requisitoL
+        situacao = cursor.fetchone()[0]
+
+        if situacao == 0:
+            return False
+        
+        return True
+
+def desbloquearPersonagem(id):
+    with conectar() as conn:
+        cursor = conn.cursor()
+
+        cursor.execute(
+            "UPDATE personagem SET desbloqueado = 1 WHERE id = ?",
+            (id,)
+        )    
+
+def bloquearPersonagem(id):
+    with conectar() as conn:
+        cursor = conn.cursor()
+
+        cursor.execute(
+            "UPDATE personagem SET desbloqueado = 0 WHERE id = ?",
+            (id,)
+        )
+
+    
+def listarItens(id):
+    with conectar() as conn:
+        cursor = conn.cursor()
+
+        cursor.execute(
+            "SELECT item_id, boss_id FROM unlock WHERE personagem_id = ?",
+            (id,)
+        )
         
 
 def listarPersonagens(dados):
@@ -104,19 +119,17 @@ def atualizarMarca(nome, dados, marca):
 
 
 def exibirProgresso(nome, dados):
-    if not personagemExiste(nome, dados):
-        print("Nome invalido!")
-        return
     marcas = []
+    estados = []
     for marca, estado in dados["personagens"][nome]["marcas"].items():
         if estado == True:
-            saida = "✅ Concluido!"
+            saida = "1"
         else:
-            saida = "❌ Não concluido!"
-        print(f"{marca} : {saida}")
+            saida = "0"
         marcas.append(marca)
+        estados.append(saida)
 
-    return marcas
+    return marcas,estados
 
 def gerarRun(dados):
     personagensDesbloqueados = [
@@ -132,41 +145,6 @@ def gerarRun(dados):
     print(f"\nPersonagem:{personagemSorteado.capitalize()}\nObjetivo: {primarioSorteado}\nTentar chegar no {secundarioSorteado}\n")
 
 def main():
-    dados = carregarJson()
-    
-    opcao = -1
-
-    while opcao != 0:
-        print("1 - Listar personagens\n2 - Listar itens de um personagem\n3 - Desbloquear personagem\n4 - Bloquear personagem\n5 - Atualizar marca de um personagem\n6 - Ver marcas de um personagem")
-        print("7 - Randomizar uma run para jogar")
-        opcao = int(input("Coloque o numero correspondente a sua escolha:"))
-        match opcao:
-            case 1:
-                listarPersonagens(dados)
-            case 2:
-                nome = input("Digite o nome do personagem que quer ver os itens:")
-                listarItens(nome,dados)
-            case 3:
-                nome = input("Digite o nome do personagem que quer desbloquear:")
-                desbloquearPersonagem(nome,dados)
-            case 4:
-                nome = input("Digite o nome do personagem que quer bloquear:")
-                bloquearPersonagem(nome,dados)
-            case 5:
-                nome = input("Digite o nome do persoagem que quer atualizar uma marca:")
-                exibirProgresso(nome, dados)
-                marca = input("Digite o nome da marca que quer atualizar:")
-                atualizarMarca(nome,dados,marca)
-            case 6:
-                nome = input("Digite o nome do personagem que quer ver as marcas:")
-                exibirProgresso(nome,dados)
-            case 7:
-                gerarRun(dados)
-            case 0:
-                print("fechando o programa...")
-            case _:
-                print("opcao invalida!tente novamente")
-        salvarJson(dados)
-        dados = carregarJson()    
-    
+    nome = input().lower()
+    personagemExiste(nome)
 main()

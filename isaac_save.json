@@ -38,7 +38,7 @@
                 "satan": true,
                 "isaac": true,
                 "the lamb": true,
-                "???": true,
+                "bluebaby": true,
                 "ultra greed": true,
                 "ultra greedier": true,
                 "hush": false,
@@ -91,7 +91,7 @@
                 "satan": false,
                 "isaac": true,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -128,7 +128,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -181,7 +181,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -192,7 +192,7 @@
             },
             "all marks": false
         },
-        "???": {
+        "blue baby": {
             "desbloqueado": true,
             "itens": {
                 "D6": {
@@ -230,7 +230,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -275,7 +275,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -320,7 +320,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -373,7 +373,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -389,7 +389,7 @@
             "itens": {
                 "compound fracture": {
                     "desbloqueado": false,
-                    "requisito": " delirium"
+                    "requisito": "delirium"
                 },
                 "astral projection": {
                     "desbloqueado": false,
@@ -418,7 +418,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -463,7 +463,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -512,7 +512,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -573,7 +573,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -614,7 +614,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -638,7 +638,7 @@
                 },
                 "smelter": {
                     "desbloqueado": false,
-                    "requisito": "mom heart"
+                    "requisito": "mom's heart"
                 },
                 "lil portal": {
                     "desbloqueado": false,
@@ -671,7 +671,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -720,7 +720,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -773,7 +773,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -830,7 +830,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -858,7 +858,7 @@
                 },
                 "soul of isaac": {
                     "desbloqueado": false,
-                    "requisito": "hush & boss rush"
+                    "requisito": "hush + boss rush"
                 },
                 "the stars?": {
                     "desbloqueado": false,
@@ -871,7 +871,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -908,7 +908,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -928,7 +928,7 @@
                 },
                 "soul of cain": {
                     "desbloqueado": false,
-                    "requisito": "hush & boss rush"
+                    "requisito": "hush + boss rush"
                 }
             },
             "marcas": {
@@ -937,7 +937,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -961,7 +961,7 @@
                 },
                 "your soul": {
                     "desbloqueado": false,
-                    "requisito": "isaac/bluebaby/satan & the lamb"
+                    "requisito": "isaac + bluebaby + satan + the lamb"
                 }
             },
             "marcas": {
@@ -970,7 +970,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -999,7 +999,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -1023,7 +1023,7 @@
                 },
                 "strange key": {
                     "desbloqueado": false,
-                    "requisito": "isaac/bluebaby/satan & the lamb"
+                    "requisito": "isaac + bluebaby + satan + the lamb"
                 },
                 "horse pills": {
                     "desbloqueado": false,
@@ -1040,7 +1040,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -1064,7 +1064,7 @@
                 },
                 "temporary tattoo": {
                     "desbloqueado": false,
-                    "requisito": "isaac/bluebaby/satan & the lamb"
+                    "requisito": "isaac + bluebaby + satan + the lamb"
                 }
             },
             "marcas": {
@@ -1073,7 +1073,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -1102,7 +1102,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -1135,7 +1135,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -1155,7 +1155,7 @@
                 },
                 "soul of eden": {
                     "desbloqueado": false,
-                    "requisito": "hush & boss rush"
+                    "requisito": "hush + boss rush"
                 },
                 "wild card": {
                     "desbloqueado": false,
@@ -1168,7 +1168,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -1192,7 +1192,7 @@
                 },
                 "soul of the lost": {
                     "desbloqueado": false,
-                    "requisito": "hush & boss rush"
+                    "requisito": "hush + boss rush"
                 },
                 "ghost bombs": {
                     "desbloqueado": false,
@@ -1200,7 +1200,7 @@
                 },
                 "kid's drawing": {
                     "desbloqueado": false,
-                    "requisito": "isaac/bluebaby/satan & the lamb"
+                    "requisito": "isaac + bluebaby + satan + the lamb"
                 }
             },
             "marcas": {
@@ -1209,7 +1209,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -1233,7 +1233,7 @@
                 },
                 "soul of lilith": {
                     "desbloqueado": false,
-                    "requisito": "hush & boss rush"
+                    "requisito": "hush + boss rush"
                 }
             },
             "marcas": {
@@ -1242,7 +1242,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -1262,7 +1262,7 @@
                 },
                 "soul of the keeper": {
                     "desbloqueado": false,
-                    "requisito": "hush & boss rush"
+                    "requisito": "hush + boss rush"
                 }
             },
             "marcas": {
@@ -1271,7 +1271,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -1308,7 +1308,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -1332,11 +1332,11 @@
                 },
                 "polished bone": {
                     "desbloqueado": false,
-                    "requisito": "isaac/bluebaby/satan & the lamb"
+                    "requisito": "isaac + bluebaby + satan + the lamb"
                 },
                 "soul of the forgotten": {
                     "desbloqueado": false,
-                    "requisito": "hush & boss rush"
+                    "requisito": "hush + boss rush"
                 }
             },
             "marcas": {
@@ -1345,7 +1345,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -1369,7 +1369,7 @@
                 },
                 "soul of bethany": {
                     "desbloqueado": false,
-                    "requisito": "hush & boss rush"
+                    "requisito": "hush + boss rush"
                 }
             },
             "marcas": {
@@ -1378,7 +1378,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
@@ -1402,7 +1402,7 @@
                 },
                 "soul of jacob and esau": {
                     "desbloqueado": false,
-                    "requisito": "hush & boss rush"
+                    "requisito": "hush + boss rush"
                 },
                 "golden trinkets": {
                     "desbloqueado": false,
@@ -1415,7 +1415,7 @@
                 "satan": false,
                 "isaac": false,
                 "the lamb": false,
-                "???": false,
+                "bluebaby": false,
                 "ultra greed": false,
                 "ultra greedier": false,
                 "hush": false,
