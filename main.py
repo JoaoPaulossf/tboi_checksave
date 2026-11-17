@@ -76,25 +76,39 @@ def listarItens(id):
         )
         
 
-def listarPersonagens(dados):
+def listarPersonagens():
     saida = []
-    for nome in dados["personagens"]:
-        valor = dados["personagens"][nome]["desbloqueado"]
-        if valor == True:
-            output = 1
-        else:
-            output = 0 
-        saida.append([nome, output])
+    with conectar() as conn:
+            cursor = conn.cursor()
+    
+            cursor.execute(
+                "SELECT nome FROM personagem",
+                (id,)
+            )
+
+            saida = cursor.fetchone()
+
     return saida
 
-def verificarAllMarks(nome, dados):
-    for valor in dados["personagens"][nome]["marcas"].values():
-        if valor == False:
-            return
-    dados["personagens"][nome]["all marks"] = True
-    print(f"Você tem todas as marcas com {nome}!")
+def verificarAllMarks(id):
+    with conectar() as conn:
+        cursor = conn.cursor()
+
+        cursor.execute(
+            "SELECT concluido FROM progresso WHERE personagem_id = ?",
+            (id,)
+        )
+
+        progressos = cursor.fetchone()
+
+        for progresso in progressos:
+            if progresso:
+                return
+
+        print(f"Você tem todas as marcas!")
     
-def atualizarMarca(nome, dados, marca):
+def atualizarMarca(idNome, idMarca):
+    
     if not personagemExiste(nome, dados):
         print("nome invalido!")
         return
@@ -146,5 +160,9 @@ def gerarRun(dados):
 
 def main():
     nome = input().lower()
-    personagemExiste(nome)
+    if personagemExiste(nome):
+        print("Existe")
+        return
+    print("Não existe")
+    
 main()
