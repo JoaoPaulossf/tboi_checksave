@@ -109,30 +109,23 @@ def verificarAllMarks(id):
     
 def atualizarMarca(idNome, idMarca):
     
-    if not personagemExiste(nome, dados):
-        print("nome invalido!")
-        return
-    elif not personagemEhDesbloqueado(nome, dados):
-        print(f"Você está tentando atualizar uma marca do {nome} que você ainda não desbloqueou!")
-        print("Marque ele como desbloqueado antes de tentar atualizar a marca que voce completou!")
-        return
-    elif dados["personagens"][nome]["all marks"]:
-        print(f"Você já tem todas as marcas com {nome}!")
-        return
-    if not marca in dados["personagens"][nome]["marcas"]:
-        print("nome da marca invalido!")
-        return
-    else:
-        dados["personagens"][nome]["marcas"][marca] = True
-        for nomeItem, itemAtributos in dados["personagens"][nome]["itens"].items():
-            if itemAtributos["requisito"] == marca:
-                itemAtributos["desbloqueado"] = True
-                print(f"Você desbloqueeou um item bom!\nCompletando a marca do {marca}, foi desbloqueado o item {nomeItem}")
-        verificarAllMarks(nome,dados)
-        return
+    with conectar() as conn:
+            cursor = conn.cursor()
+    
+            cursor.execute(
+                "UPDATE progresso SET concluido = 1 WHERE personagem_id = ? and boss_id = ?",
+                (idNome,idMarca,)
+            )
+    
 
 
-def exibirProgresso(nome, dados):
+def exibirProgresso(idNome):
+    with conectar() as conn:
+        cursor = conn.cursor()
+
+        cursor.execute(
+            "SELECT nome FROM personagem"
+        )
     marcas = []
     estados = []
     for marca, estado in dados["personagens"][nome]["marcas"].items():
