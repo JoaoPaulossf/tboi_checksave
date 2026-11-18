@@ -6,7 +6,7 @@ cursor = conn.cursor()
 
 cursor.execute("""
 CREATE TABLE personagem(
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id_personagem INTEGER PRIMARY KEY AUTOINCREMENT,
     nome TEXT NOT NULL,
     desbloqueado INTEGER NOT NULL            
 )
@@ -14,34 +14,30 @@ CREATE TABLE personagem(
 
 cursor.execute("""
 CREATE TABLE boss(
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id_boss INTEGER PRIMARY KEY AUTOINCREMENT,
     nome TEXT
-)
-""")
-
-cursor.execute("""
-CREATE TABLE item(
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    nome TEXT
-)               
-""")
-
-cursor.execute("""
-CREATE TABLE unlock(
-    id INTEGER PRIMARY KEY AUTOINCREMENT, 
-    personagem_id INTEGER,
-    item_id INTEGER,
-    boss_id INTEGER
 )
 """)
 
 cursor.execute("""
 CREATE TABLE progresso(
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    personagem_id INTEGER,
-    boss_id INTEGER,
-    concluido INTEGER
+    id_progresso INTEGER PRIMARY KEY AUTOINCREMENT,
+    id_personagem INTEGER,
+    id_boss INTEGER,
+    concluido INTEGER NOT NULL,
+    FOREIGN KEY(id_personagem) REFERENCES personagem(id_personagem),
+    FOREIGN KEY(id_boss) REFERENCES boss(id_boss)
 )
+""")
+
+cursor.execute("""
+CREATE TABLE item(
+    id_item INTEGER PRIMARY KEY AUTOINCREMENT,
+    id_progresso INTEGER,
+    nome TEXT,
+    qualidade INTEGER,
+    FOREIGN KEY(id_progresso) REFERENCES progresso(id_progresso)
+)               
 """)
 
 conn.commit()
