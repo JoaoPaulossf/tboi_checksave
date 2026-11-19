@@ -1,3 +1,4 @@
 /venv/
 geradorJson.py
-medidas.txt
+itens.txt
+/__pycache__/
