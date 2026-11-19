@@ -17,14 +17,14 @@ with conectar() as conn:
 
     cursor.execute("""
         INSERT OR IGNORE INTO progresso (id_personagem,id_boss,concluido) VALUES
-        (0,0,1),
-        (0,1,0)
+        (1,1,1),
+        (1,2,0)
     """)
 
     cursor.execute("""
         INSERT OR IGNORE INTO item (id_progresso,nome,qualidade,item_bom) VALUES
-        (0, 'Judas', 0 , 1),
-        (1, 'D6', 4, 1)
+        (1, 'Judas', 0 , 1),
+        (2, 'D6', 4, 1)
     """)
     
     conn.commit()
