@@ -189,7 +189,6 @@ def gerarRun():# gera uma run aleatória de acordo com os personagens desbloquea
         print(f"\nPersonagem:{personagem_sorteado.capitalize()}\nObjetivo: {primarioSorteado}\nTentar chegar no {secundarioSorteado}\n")
 
 def main():
-    lista = listarItens(1)
-    for tupla in lista:
-        print(f"{tupla[0]} : {tupla[1]}")
+    a = 1
+
 main()
