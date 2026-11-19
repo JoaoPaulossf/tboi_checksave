@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect("isaac.db")
+conn = sqlite3.connect("database/isaac.db")
 
 cursor = conn.cursor()
 
@@ -36,6 +36,7 @@ CREATE TABLE item(
     id_progresso INTEGER,
     nome TEXT,
     qualidade INTEGER,
+    item_bom INTEGER,
     FOREIGN KEY(id_progresso) REFERENCES progresso(id_progresso)
 )               
 """)
