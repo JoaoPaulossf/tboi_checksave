@@ -1,47 +1,42 @@
 import requests
 from bs4 import BeautifulSoup
-
+import sqlite3
 import json
+import re
 
-url = "https://bindingofisaacrebirth.wiki.gg/api.php"
-params = {
-    "action": "parse",
-    "page": "Completion_Marks",
-    "format": "json",
-    "prop": "text"
-}
+URL_API = "https://bindingofisaacrebirth.wiki.gg/api.php"
 headers = {
-    "User-Agent": "IsaacSaveTrackerProject/1.0 (linkmagnofxd@gmail.com)"
+    "User-Agent": "IsaacDBBuilder/1.0 (linkmagnofxd@gmail.com)"
 }
 
-response = requests.get(url, params=params, headers=headers).json()
-html_limpo = response["parse"]["text"]["*"]
-soup = BeautifulSoup(html_limpo, "html.parser")
+def limparTexto(texto):
+    # Remove sujeiras de formatação HTML
+    texto = texto.replace("\u200d", "").replace("\xa0", " ")
+    return re.sub(r"\s+", " ", texto).strip()
 
-tabelas = soup.find_all("table", class_="wikitable")
+def buscarQualidadesItem():
+    params = {
+        "action": "parse",
+        "page": "Items",
+        "format": "json",
+        "prop": "text"
+    }
 
-dados_extraidos = []
+    response = requests.get(URL_API, params=params, headers=headers).json()
+    html_limpo = response["parse"]["text"]["*"]
+    soup = BeautifulSoup(html_limpo, "html.parser")
 
-for idx, tabela in enumerate(tabelas):
-    linhas = tabela.find_all("tr")
+    qualidades = {}
 
-    cabecalhos = [th.get_text(strip=True) for th in linhas[0].find_all("th")]
+    for tabela in soup.find_all("table", class_="wikitable"):
+        linhas = tabela.find_all("tr")
+        for linha in linhas[1:]:  # Ignora o cabeçalho
+            colunas = linha.find_all(["td", "th"])
+            if len(colunas) >= 5:
+                nome = limparTexto(colunas[0].get_text()).lower()
+                qual_texto = limparTexto(colunas[-1].get_text())
+                if qual_texto.isdigit():
+                    qualidades[nome] = int(qual_texto)
+    return qualidades
 
-    registros_tabela = []
-
-    for linha in linhas[1:]:  # Ignora o cabeçalho
-        colunas = [td.get_text(strip=True) for td in linha.find_all(["td", "th"])]
-        if colunas:
-            registros_tabela.append(colunas)
-
-    dados_extraidos.append({
-        "tabela": idx,
-        "colunas": cabecalhos,
-        "amostra_linhas": registros_tabela[:3],
-        "total_linhas": len(registros_tabela)
-    })
-
-with open("inspecao_wiki.json", "w", encoding="utf-8") as f:
-    json.dump(dados_extraidos, f, indent=4, ensure_ascii=False)
-
-print("Arquivo 'inspecao_wiki.json' criado com sucesso!")
+print(buscarQualidadesItem())
